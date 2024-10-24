@@ -40,6 +40,16 @@ section {
     margin: 10px auto;
 }
 
+section > article:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+section > article:nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+
 .title {
     text-align: center;
 }
