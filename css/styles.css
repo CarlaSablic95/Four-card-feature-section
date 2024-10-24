@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 10px auto;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 4rem;
+}
+
+article > div {
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+.builder-karma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+
+/* MOBILE FIRST */
+@media (min-width: 1024px) { /* A partir de 1024px se aplica un fondo de color rojo al body */
+  .four-cards {
+    display: flex;
+    gap: 20px;
+  }
+}
